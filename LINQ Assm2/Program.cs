@@ -38,8 +38,45 @@ namespace LINQ_Assm2
             //} 
             #endregion
 
+            #region Transformation
+            //var Result = ProductList.Select(P => { return P.ProductName; });
+
+            //var Result = CustomerList.Select(C => { return C.CustomerName; });
 
 
+            //var Result = ProductList.Select(P => { return new {Id = P.ProductID, Name = P.ProductName}; });
+
+            //var Result = from P in ProductList
+            //             select new
+            //             {
+            //                 P.ProductID,
+            //                 P.ProductName
+            //             };
+
+            //var Result = CustomerList.Select(C => C.Orders);
+
+            //var Result = CustomerList.SelectMany(C => C.Orders);
+
+            //var Result = from C in CustomerList
+            //             from O in C.Orders
+            //             select O;
+
+            //var Result = ProductList.Where(P => P.UnitsInStock > 0).Select(P =>
+            //new
+            //{
+            //    P.ProductID,
+            //    P.ProductName,
+            //    NewPrice = P.UnitPrice - P.UnitPrice * 0.1M
+            //});
+
+            //var Result = ProductList.Select((P, I) => new { I, P.ProductName });
+
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
 
         }
     }

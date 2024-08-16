@@ -78,6 +78,35 @@ namespace LINQ_Assm2
             //} 
             #endregion
 
+            #region Ordering
+            //var Result = ProductList.OrderBy(P => P.UnitPrice);
+            //var Result = ProductList.OrderByDescending(P => P.UnitPrice);
+
+            //var Result = from P in ProductList
+            //             orderby P.UnitPrice ascending
+            //             select P;
+
+            //var Result = ProductList.Select(P => new { P.ProductName, P.UnitsInStock, P.UnitPrice })
+            //                        .OrderBy(P => P.UnitsInStock)
+            //                        .ThenByDescending(P => P.UnitPrice);
+
+            //var Result = from P in ProductList
+            //             orderby P.UnitsInStock, P.UnitPrice descending
+            //             select new
+            //             {
+            //                 P.ProductName,
+            //                 P.UnitsInStock,
+            //                 P.UnitPrice
+            //             };
+
+            //var Result = ProductList.Reverse<Product>();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
+
         }
     }
 }

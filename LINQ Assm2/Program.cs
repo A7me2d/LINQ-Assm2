@@ -107,6 +107,65 @@ namespace LINQ_Assm2
             //} 
             #endregion
 
+            #region Element Operators
+            //ProductsList = new List<Product>();
+
+            //var Result = ProductList.First();
+
+            //var Result = ProductList.Last();
+
+
+            //var Result = ProductList.FirstOrDefault();
+
+
+            //var Result = ProductList.LastOrDefault();
+
+            //var Result = ProductList.First(P => P.UnitsInStock == 1000);
+
+            //var Result = ProductList.Last(P => P.UnitsInStock == 1000);
+
+            //var Result = ProductList.FirstOrDefault();
+
+            //var Result = ProductList.FirstOrDefault(new Product() { ProductName = "Dafualt Product"});
+
+            //var Result = ProductList.FirstOrDefault(P => P.UnitsInStock == 1000 , new Product() { ProductName = "Dafualt Product" });
+
+            //ProductList.LastOrDefault();
+
+            //var Result = ProductList.ElementAt(1000); 
+
+            //var Result = ProductList.ElementAtOrDefault(1000); 
+
+            //ProductList = new List<Product> () { new Product() { ProductName = " Only One Product"} };
+
+            //ProductList = new List<Product>();
+
+            //var Result = ProductList.Single();
+
+            //var Result = ProductList.Single(P => P.ProductID == 1);
+
+            //var Result = ProductList.SingleOrDefault();
+
+            //var Result = ProductList.SingleOrDefault(new Product() { ProductName = "Default Product"});
+
+            //var Result = ProductList.SingleOrDefault(P => P.UnitsInStock == 1000);
+
+            //var Result = ProductList.SingleOrDefault(P => P.UnitsInStock == 1000 , new Product() {  ProductName = "Default Product" });
+
+            //ProductList = new List<Product>();
+
+            //var Result = ProductList.DefaultIfEmpty(new Product() { ProductName = "Default Value if The List is Emply" });
+
+            //foreach (var item in Result) 
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
+
+
+
         }
     }
 }

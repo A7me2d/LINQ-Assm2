@@ -7,13 +7,26 @@ using System.Xml.Linq;
 
 namespace ASSLINQ
 {
-    class Product
+
+    class CompareProductBasedOnUnitsInStock : IComparer<Product>
+    {
+        public int Compare(Product? x, Product? y)
+        {
+            return x.UnitsInStock.CompareTo(y.UnitsInStock);
+        }
+    }
+    class Product : ICloneable<Product>
     {
         public long ProductID { get; set; }
         public string ProductName { get; set; }
         public string Category { get; set; }
         public decimal UnitPrice { get; set; }
         public int UnitsInStock { get; set; }
+
+        public int CompareTo(Product? other)
+        {
+            return this.UnitPrice.CompareTo(other.UnitPrice);
+        }
 
 
         public override string ToString()

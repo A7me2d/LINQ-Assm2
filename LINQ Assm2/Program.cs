@@ -164,7 +164,31 @@ namespace LINQ_Assm2
 
             #endregion
 
+            #region Aggragate Operators
+            //var Result = ProductList.Count(P => P.UnitsInStock == 0);
+            //var Result = ProductList.Count;
 
+            //var Result = ProductList.Sum(P => P.UnitPrice);
+            //var Result = ProductList.Sum(P => P.UnitsInStock);
+
+            //var Result = ProductList.Average(P => P.UnitPrice);
+
+            //var Result = ProductList.Max();
+            //var Result = ProductList.Max(new CompareProductBasedOnUnitsInStock());
+            //var Result = ProductList.Max(P => P.UnitPrice);
+            //var Result = ProductList.Max(P => P.UnitsInStock);
+            //var Result = ProductList.Max(P => P.ProductName);
+
+
+            //var Result = ProductList.MaxBy(P => P.UnitPrice);
+            //var Result = ProductList.MaxBy(P => P.UnitsInStock);
+
+            //List<string> Names = new List<string>() { "Ahmed","Ali","Omar","Mohamed"};
+
+            //var Result = Names.Aggregate((str01, str02) => $"{str01} {str02}");
+
+            //Console.WriteLine(Result); 
+            #endregion
 
         }
     }

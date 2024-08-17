@@ -190,6 +190,21 @@ namespace LINQ_Assm2
             //Console.WriteLine(Result); 
             #endregion
 
+            #region Casting Operators
+
+            //List<Product> Result = ProductList.Where(P => P.UnitsInStock == 0).ToList();
+            //Product[] Result = ProductList.Where(P => P.UnitsInStock == 0).ToArray();
+            //Dictionary<long,Product> Result = ProductList.Where(P => P.UnitsInStock == 0).ToDictionary(P => P.ProductID);
+            //HashSet<Product> Result = ProductList.Where(P => P.UnitsInStock == 0).ToHashSet();
+            //var Result = ProductList.Where(P => P.UnitsInStock == 0).ToLookup(P => P.ProductID);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }

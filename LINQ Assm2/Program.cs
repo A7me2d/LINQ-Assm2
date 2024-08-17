@@ -236,6 +236,25 @@ namespace LINQ_Assm2
             //    Console.WriteLine(item + " ");
             //} 
             #endregion
+
+
+            #region Quantifier Operators
+            //ProductList = new List<Product>();
+
+            //var Result = ProductList.Any(P => P.UnitsInStock == 1000);
+
+            //var Result = ProductList.All(P => P.UnitPrice > 0);
+
+            //var Sep01 = Enumerable.Range(0, 100);
+            //var Sep02 = Enumerable.Range(0, 100);
+            //var Sep02 = Enumerable.Range(50, 100);
+
+            //var Result = Sep01.SequenceEqual(Sep02);
+
+            //var Result = Sep01.Contains(1);
+
+            //Console.WriteLine(Result); 
+            #endregion
         }
     }
 }

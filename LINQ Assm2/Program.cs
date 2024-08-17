@@ -237,7 +237,6 @@ namespace LINQ_Assm2
             //} 
             #endregion
 
-
             #region Quantifier Operators
             //ProductList = new List<Product>();
 
@@ -255,6 +254,20 @@ namespace LINQ_Assm2
 
             //Console.WriteLine(Result); 
             #endregion
+
+            #region Zipping Operators
+            //List<string> Words = new List<string>() {"Ten","Twenty","Thirty","Fourty"};
+
+            //List<int> Numbers = new List<int>() { 10 , 20 , 30 , 40 , 50 , 60};
+
+            //var Result = Words.Zip(Numbers , (W,N) => $"{N} => {W}");
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
+
         }
     }
 }

@@ -205,6 +205,20 @@ namespace LINQ_Assm2
 
             #endregion
 
+            #region Generation Operators
+            //var Result = Enumerable.Range(1,100);
+            //var Result = Enumerable.Range(10,100);
+
+            //var Result = Enumerable.Repeat(new Product() { ProductName = "Repeated Product" }, 100);
+
+            //var Result = Enumerable.Empty<Product>();
+
+            //foreach (var item in Result) 
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
+
         }
     }
 }

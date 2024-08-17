@@ -219,6 +219,23 @@ namespace LINQ_Assm2
             //} 
             #endregion
 
+            #region Set Operators
+
+            //var Sep01 = Enumerable.Range(0, 100);
+            //var Sep02 = Enumerable.Range(50, 100);
+
+            //var Result = Sep01.Union(Sep02);
+            //var Result = Sep01.Concat(Sep02);
+
+            //var Result = Sep01.Intersect(Sep02);
+            //var Result = Sep01.Except(Sep02);
+            //var Result = Sep02.Except(Sep01);
+
+            //foreach (var item in Result) 
+            //{
+            //    Console.WriteLine(item + " ");
+            //} 
+            #endregion
         }
     }
 }
